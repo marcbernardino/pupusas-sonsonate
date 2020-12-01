@@ -30,8 +30,19 @@ h2 {
     padding: 2% 0% 2%;
 }
 
+#menu h3 {
+    text-align: center;
+    background-color: #ffa101;
+    color: white;
+    padding: 0.5%;
+}
+
 #menu {
     padding-top: 2%;
+}
+
+#menu .row {
+    margin-bottom: 2%;
 }
 
 #about {
@@ -66,11 +77,20 @@ button {
 
 .col-sm-9, .col-sm-3 {
     background-color: #ffa101;
+    margin-bottom: 1%;
+}
+
+.col-sm-3 {
     padding-left: 0;
+    padding-right: 0;
 }
 
 .col-sm-6 {
     margin-bottom: 3%;
+}
+
+.col-sm-6 contact {
+    background-color: #ffa101;
 }
 
 i {
@@ -89,4 +109,5 @@ footer {
     background-color: #333333;
     color: white;
     padding-top: 2%;
+    margin-top: 2%;
 }
